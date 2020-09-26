@@ -18,7 +18,6 @@
     }
 
     /*Imagens*/
-    .conheça-o-hotel .grid li.small, .conheça-o-hotel .grid li.large{
-        flex-basis: 100%;
+    .conheça-o-hotel .grid {
+        flex-direction: row;
     }
-}
