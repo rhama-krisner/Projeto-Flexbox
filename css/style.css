@@ -139,7 +139,7 @@ header li:last-child{
 
 .conheça-o-hotel .grid li{
     height: 350px;
-    padding: 20px;
+    padding: 10px;
     border-radius: 4px;
     background-clip: content-box;
     background-size: cover;
