@@ -5,4 +5,20 @@
     header img {
         margin-bottom: 15px;
     }
+
+    /*Hero*/
+    .hero h1{
+        font-size: 2.5rem;
+    }
+    .hero h3{
+        font-size: 1.5rem;
+    }
+    header img{
+        margin-bottom: 15px;
+    }
+
+    /*Imagens*/
+    .conheça-o-hotel .grid li.small, .conheça-o-hotel .grid li.large{
+        flex-basis: 100%;
+    }
 }
