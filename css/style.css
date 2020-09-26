@@ -5,8 +5,8 @@
     margin: 0;
     font-size: 100%; 
     box-sizing: border-box; 
-    font-family: 'Opens Sans', sans-serif
-};
+    font-family: 'Open Sans', sans-serif;
+}
 
 li, nav{
     list-style-type: none;
@@ -100,8 +100,31 @@ header li:last-child{
 
 }
 
-/*Conheça o Hotel*/
-.conheça-o-hotel{
+/*Responsivo*/
+@media(max-width: 700px){
+    header{
+        flex-direction: column;
+    }
+    header img {
+        margin-bottom: 15px;
+    }
+
+    /*Hero*/
+    .hero h1{
+        font-size: 2.5rem;
+    }
+    .hero h3{
+        font-size: 1.5rem;
+        
+    }
+    header img{
+        margin-bottom: 15px;
+    }
+
+}
+
+/*conheca o Hotel*/
+.conheca-o-hotel{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -109,35 +132,36 @@ header li:last-child{
 
 }
 
-.conheça-o-hotel h3{
+.conheca-o-hotel h3{
     font-size: 2rem;
     margin-bottom: 35px;
     color: #191c03;
 
 }
 
-.conheça-o-hotel p{
+.conheca-o-hotel p{
     max-width: 800px;
     margin-bottom: 35px;
     color: #191c03;
     text-align: center;
 }
 
-.conheça-o-hotel hr{
+.conheca-o-hotel hr{
     width: 200px;
     height: 2px;
     background-color: #191c03;
     margin-bottom: 70px;
     border: none;
+    border-radius: 8px;
 }
 
-.conheça-o-hotel .grid {
+.conheca-o-hotel .grid {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
 }
 
-.conheça-o-hotel .grid li{
+.conheca-o-hotel .grid li{
     height: 350px;
     padding: 10px;
     border-radius: 4px;
@@ -146,10 +170,17 @@ header li:last-child{
     background-position: center;
 }
 
-.conheça-o-hotel .grid li.small{
+.conheca-o-hotel .grid li.small{
     flex-basis: 40%;
 }
 
-.conheça-o-hotel .grid li.large{
+.conheca-o-hotel .grid li.large{
     flex-basis: 60%;
+}
+
+/*Responsivo*/
+@media(max-width: 700px){
+    .conheca-o-hotel .grid li.small, .conheca-o-hotel .grid li.large{
+        flex-basis: 100%;
+    }
 }
