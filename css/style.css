@@ -21,10 +21,13 @@ a{
     text-decoration: none; 
     cursor: pointer; 
     opacity: 0.9;
+    transition: 0.3s;
 }
 
 a:hover{
     opacity: 1;
+    color: #0b298b;
+    text-decoration: underline;
 }
 
 /*Header*/
