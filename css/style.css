@@ -123,6 +123,7 @@ header li:last-child{
 
     h3{
         text-align: center;
+        align-items: center;
     }
 
 }
