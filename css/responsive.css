@@ -5,6 +5,10 @@
     header img {
         margin-bottom: 15px;
     }
+    /*Botão*/
+    a .btn{
+      font-size: 12px;  
+    }
 
     /*Hero*/
     .hero h1{
