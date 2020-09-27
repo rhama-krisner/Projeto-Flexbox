@@ -256,3 +256,61 @@ header li:last-child{
         flex-direction: column;
     }
 }
+
+/*Newsletter*/
+
+.newsletter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 50px;
+
+}
+
+.newsletter h3{
+    font-size: 2rem;
+    margin-bottom: 35px;
+    text-align: center;
+    color: #191c03;
+}
+
+.newsletter p{
+    max-width: 800px;
+    margin-bottom: 35px;
+    text-align: center;
+    color: #191c03;
+}
+
+.newsletter hr{
+    width: 200px;
+    height: 2px;
+    background-color: #191c03;
+    margin-bottom: 70px;
+    border: none;
+    border-radius: 8px;    
+}
+
+.newsletter form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 80%;
+    max-width: 800px;
+}
+
+.newsletter input{
+    padding: 15px;
+    border: 1px solid #191c03;
+    border-radius: 4px;
+    margin-right: 15px;
+    flex: 1;
+}
+
+.newsletter button{
+    padding: 15px;
+    background-color: #191c03;
+    color: #c3c63b;
+    text-transform: uppercase;
+    border: none;
+}
